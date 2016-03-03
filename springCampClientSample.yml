@@ -3,7 +3,7 @@ info:
   url: https://github.com/skw723/config-repo
 ---
 spring:
-  profiles: test
+  profiles: local
   cloud:
     config:
       db:
