@@ -1,0 +1,15 @@
+info:
+  description: Spring Cloud Samples
+  url: https://github.com/skw723/config-repo
+---
+spring:
+  profiles: test
+  cloud:
+    config:
+      db:
+        driver: driver_123
+        url: url_123
+        user: user_123
+        password: pwd_123
+endpoints:
+  restart: enabled
